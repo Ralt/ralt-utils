@@ -1,0 +1,4 @@
+#!/bin/bash
+
+setxkbmap -option ctrl:nocaps -layout us,fr
+setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,fr

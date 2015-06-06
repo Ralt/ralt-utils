@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+db_get ralt_utils/username
+
+ln -sfn /usr/share/ralt-utils/gitconfig /home/${RET}/.gitconfig
+
+adduser ${RET} sudo
+
+chown -R ${RET} /home/${RET}/.gitconfig

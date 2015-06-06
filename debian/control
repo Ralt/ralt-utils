@@ -1,0 +1,10 @@
+Source: ralt-utils
+Maintainer: Florian Margaine <florian@margaine.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: ralt-utils
+Architecture: any
+Depends: ${misc:Depends}, vagrant, software-properties-common, git
+Description: various utilities

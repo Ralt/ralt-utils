@@ -1,0 +1,3 @@
+Template: ralt_utils/username
+Type: string
+Description: For which user should you install the dotfiles?
