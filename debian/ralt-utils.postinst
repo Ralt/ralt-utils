@@ -7,6 +7,7 @@ set -e
 db_get ralt_utils/username
 
 ln -sfn /usr/share/ralt-utils/gitconfig /home/${RET}/.gitconfig
+ln -sfn /usr/share/ralt-utils/emacs /home/${RET}/.emacs
 
 adduser ${RET} sudo
 
