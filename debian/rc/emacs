@@ -45,6 +45,7 @@
       names
       projectile
       trident-mode
+      slime
       web-mode)
       "List of packages needs to be installed at launch")
 

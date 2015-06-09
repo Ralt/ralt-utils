@@ -10,6 +10,6 @@ ln -sfn /usr/share/ralt-utils/gitconfig /home/${RET}/.gitconfig
 ln -sfn /usr/share/ralt-utils/emacs /home/${RET}/.emacs
 ln -sfn /usr/share/ralt-utils/tmux.conf /home/${RET}/.tmux.conf
 
-adduser ${RET} sudo
+chown -R ${RET} /usr/share/ralt-utils
 
-chown -R ${RET} /home/${RET}/.gitconfig
+adduser ${RET} sudo
