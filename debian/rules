@@ -10,3 +10,4 @@ override_dh_auto_install:
 	install -m 755 debian/bin/suspend debian/ralt-utils/usr/bin
 	install -m 644 debian/rc/gitconfig debian/ralt-utils/usr/share/ralt-utils
 	install -m 644 debian/rc/emacs debian/ralt-utils/usr/share/ralt-utils
+	install -m 644 debian/rc/tmux.conf debian/ralt-utils/usr/share/ralt-utils

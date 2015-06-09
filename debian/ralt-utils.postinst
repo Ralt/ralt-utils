@@ -8,6 +8,7 @@ db_get ralt_utils/username
 
 ln -sfn /usr/share/ralt-utils/gitconfig /home/${RET}/.gitconfig
 ln -sfn /usr/share/ralt-utils/emacs /home/${RET}/.emacs
+ln -sfn /usr/share/ralt-utils/tmux.conf /home/${RET}/.tmux.conf
 
 adduser ${RET} sudo
 
