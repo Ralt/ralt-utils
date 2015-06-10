@@ -45,7 +45,6 @@
       names
       projectile
       trident-mode
-      slime
       web-mode)
       "List of packages needs to be installed at launch")
 
@@ -571,7 +570,6 @@
           (basic-save-buffer)))))
 (add-hook 'auto-save-hook 'full-auto-save)
 
-(setq temporary-file-directory "/home/florian/.emacs-auto-save")
 (setq backup-directory-alist
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms

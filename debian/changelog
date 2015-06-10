@@ -1,9 +1,11 @@
-ralt-utils (1.0-5) UNRELEASED; urgency=medium
+ralt-utils (1.0-7) UNRELEASED; urgency=medium
 
   * Initial release.
   * Fixes debconf priority
   * Adds emacs configuration
   * Adds tmux configuration
   * Minor fixes.
+  * Sets keyboard layout configuration.
+  * Removes wrong emacs configuration.
 
- -- Florian Margaine <florian@margaine.com>  Tue, 09 Jun 2015 22:40:02 +0000
+ -- Florian Margaine <florian@margaine.com>  Wed, 10 Jun 2015 21:13:16 +0000

@@ -6,5 +6,5 @@ Standards-Version: 3.9.2
 
 Package: ralt-utils
 Architecture: any
-Depends: ${misc:Depends}, vagrant, software-properties-common, git, emacs24, tmux
+Depends: ${misc:Depends}, vagrant, software-properties-common, git, emacs24, tmux, gnupg
 Description: various utilities
