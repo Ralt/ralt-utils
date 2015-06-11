@@ -1,4 +1,4 @@
-ralt-utils (1.0-8) UNRELEASED; urgency=medium
+ralt-utils (1.0-9) UNRELEASED; urgency=medium
 
   * Initial release.
   * Fixes debconf priority
@@ -8,5 +8,6 @@ ralt-utils (1.0-8) UNRELEASED; urgency=medium
   * Sets keyboard layout configuration.
   * Removes wrong emacs configuration.
   * Adds iojs dependency.
+  * Adds the repo tool.
 
- -- Florian Margaine <florian@margaine.com>  Thu, 11 Jun 2015 19:24:31 +0000
+ -- Florian Margaine <florian@margaine.com>  Thu, 11 Jun 2015 19:33:39 +0000
