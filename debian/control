@@ -6,5 +6,5 @@ Standards-Version: 3.9.2
 
 Package: ralt-utils
 Architecture: any
-Depends: ${misc:Depends}, vagrant, software-properties-common, git, emacs24, tmux, gnupg, iojs, unzip, lxc, tree, isync, maildir-utils, msmtp, mu4e, html2text, gnutls-bin, aspell-fr, gpgsm, cloc, exuberant-ctags
+Depends: ${misc:Depends}, vagrant, software-properties-common, git, emacs24, tmux, gnupg, iojs, unzip, lxc, tree, isync, maildir-utils, msmtp, mu4e, html2text, gnutls-bin, aspell-fr, gpgsm, cloc, exuberant-ctags, equivs
 Description: various utilities
